@@ -30,7 +30,6 @@ h1{
     text-align: center;
     font-weight: bold;
     font-style: italic;
-    text-decoration: underline;
     padding: 8px;
     font-size: xlarge;
     color: darkblue;
@@ -41,18 +40,36 @@ header{
     margin-top: 10px;
     padding: 10px;
     color: rgb(4, 4, 5);
-    font-style: italic;
     font-size: xx-large;
     font-weight: bold;
     cursor: pointer;
     justify-content: space-around;
     align-items: center;
-    text-decoration: solid;
     display: flex;
-    background-color: orangered;
+    background-color: rgb(212, 210, 46);
+    border-radius: 10p;
 }
 header a:hover{
-    color: rgb(6, 170, 247);
+    color: rgb(247, 6, 6);
     font-style: italic;
     display: flex;
+}
+footer a:hover{
+    color: rgb(247, 6, 6);
+    font-style: italic;
+    display: flex;
+    }
+footer{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(4, 4, 5);
+    font-size: xx-large;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: rgb(212, 210, 46);
+    border-radius: 10p;
 }
