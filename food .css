@@ -1,75 +1,86 @@
 .main{
-   display: flex;
-   justify-content: space-around;
-   margin-top: 10px;
-}
-.container{
-    padding: 10px;
-    height: 450px;
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-button{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: blue;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-}
-button:hover{
-    background-color: white;
-    color: blue;
-}
-h1{
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    padding: 8px;
-    font-size: xlarge;
-    color: darkblue;
-    cursor: pointer;
-}
-header{
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
-    color: rgb(4, 4, 5);
-    font-size: xx-large;
-    font-weight: bold;
-    cursor: pointer;
     justify-content: space-around;
-    align-items: center;
-    display: flex;
-    background-color: rgb(212, 210, 46);
-    border-radius: 10p;
-}
-header a:hover{
-    color: rgb(247, 6, 6);
-    font-style: italic;
-    display: flex;
-}
-footer a:hover{
-    color: rgb(247, 6, 6);
-    font-style: italic;
-    display: flex;
-    }
-footer{
-    text-align: center;
     margin-top: 10px;
-    padding: 10px;
-    color: rgb(4, 4, 5);
-    font-size: xx-large;
-    font-weight: bold;
-    cursor: pointer;
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
-    background-color: rgb(212, 210, 46);
-    border-radius: 10p;
+ }
+ .container{
+     padding: 10px;
+     height: 550px;
+     width: 400px;
+     border: 2px solid rgb(227, 11, 11);
+     background-color: lightsalmon;
+     box-shadow: 4px 4px 5px  rgb(58, 11, 227);
+     border-radius: 10px;
+     display: flex;
+     margin-top: 20px;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+ button{
+     padding: 10px;
+     border-radius: 10px;
+     background-color: blue;
+     font-weight: bold;
+     color: white;
+     cursor: pointer;
+ }
+ button:hover{
+     background-color: white;
+     color: blue;
+ }
+ h1{
+     text-align: center;
+     font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+     padding: 8px;
+     font-size: xlarge;
+     text-shadow: 4px 4px 4px rgb(227, 149, 14);
+     color: darkblue;
+     cursor: pointer;
+ }
+ header{
+     text-align: center;
+     margin-top: 10px;
+     padding: 10px;
+     color: rgb(4, 4, 5);
+     font-size: xx-large;
+     font-weight: bold;
+     cursor: pointer;
+     justify-content: space-around;
+     align-items: center;
+     display: flex;
+     background-color: gray;
+ }
+ header a:hover{
+     color: rgb(253, 16, 8);
+    text-decoration: underline;
+    font-style: italic;
+ }
+ header a{
+     text-decoration: none;
+ }
+    footer{
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        color: rgb(4, 4, 5);
+        font-size: xx-large;
+        font-weight: bold;
+        cursor: pointer;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        display: flex;
+        background-color :gray;
+ }
+ footer a:hover{
+    color: rgb(253, 16, 8);
+   text-decoration: underline;
+   font-style: italic;
+   color: black;
+}
+footer a{
+    text-decoration: none;
+    color: black;
 }
